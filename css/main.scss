@@ -34,7 +34,7 @@ section {
 
         &::before {
             content: '';
-            border-top: 5px solid red;
+            border-top: 5px solid ie-hex-str($color: #A74848);
             display: block;
         }
     }
@@ -64,11 +64,11 @@ nav {
         display: grid;
         grid-template-columns: repeat(4, 25%);
         width: 80%;
-        color: red;
+        color: ie-hex-str($color: #A74848);
     }
 
     a {
-        color: red;
+        color: ie-hex-str($color: #A74848);
         font-weight: bold;
         font-size: 2em;
     }
