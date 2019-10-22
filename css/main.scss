@@ -89,6 +89,7 @@ nav {
 
 .show-menu {
     display: block;
+    background-color: black;
     animation: slide-menu 1s ease-in forwards;
 
     .close-btn {
@@ -110,6 +111,13 @@ nav {
     li:nth-of-type(4) {
         animation: menu-item-anim .6s forwards 1.6s ease-in-out;
     }
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: green;
 }
 
 @keyframes slide-menu {
