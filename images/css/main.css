@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+div {
+  height: 768;
+  width: 200;
+  overflow: hidden;
+}
+
+img {
+  height: 768;
+}
+/*# sourceMappingURL=main.css.map */
