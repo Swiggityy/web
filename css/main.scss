@@ -27,14 +27,14 @@ header {
 section {
     padding: 4em;
 
-    h1 {
+    center {
         font-size: 4em;
         margin: 1em auto;
         width: 70%;
 
         &::before {
             content: '';
-            border-top: 5px solid ie-hex-str($color: #A74848);
+            border-top: 5px solid red;
             display: block;
         }
     }
@@ -64,16 +64,16 @@ nav {
         display: grid;
         grid-template-columns: repeat(4, 25%);
         width: 80%;
-        color: ie-hex-str($color: #A74848);
+        color: red;
     }
 
-    a {
-        color: ie-hex-str($color: #A74848);
+    span {
+        color: red;
         font-weight: bold;
         font-size: 2em;
     }
 
-    span {
+    a {
         color: whitesmoke;
         display: block;
         font-size: .75em;

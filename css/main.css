@@ -27,13 +27,13 @@ section {
   padding: 4em;
 }
 
-section h1 {
+section center {
   font-size: 4em;
   margin: 1em auto;
   width: 70%;
 }
 
-section h1::before {
+section center::before {
   content: '';
   border-top: 5px solid red;
   display: block;
@@ -81,7 +81,9 @@ nav span {
   color: whitesmoke;
   display: block;
   font-size: .75em;
+  font-weight: bold;
   margin-top: 30px;
+  word-wrap: break-word;
 }
 
 nav li {
@@ -90,6 +92,7 @@ nav li {
 
 .show-menu {
   display: block;
+  color: pink;
   -webkit-animation: slide-menu 1s ease-in forwards;
           animation: slide-menu 1s ease-in forwards;
 }
@@ -117,6 +120,13 @@ nav li {
 .show-menu li:nth-of-type(4) {
   -webkit-animation: menu-item-anim .6s forwards 1.6s ease-in-out;
           animation: menu-item-anim .6s forwards 1.6s ease-in-out;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  background-color: green;
 }
 
 @-webkit-keyframes slide-menu {
