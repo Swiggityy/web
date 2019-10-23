@@ -35,7 +35,7 @@ section center {
 
 section center::before {
   content: '';
-  border-top: 5px solid red;
+  border-top: 5px solid #CB4A4A;
   display: block;
 }
 
@@ -68,11 +68,11 @@ nav ul {
   -ms-grid-columns: (25%)[4];
       grid-template-columns: repeat(4, 25%);
   width: 80%;
-  color: red;
+  color: #CB4A4A;
 }
 
 nav span {
-  color: red;
+  color: #CB4A4A;
   font-weight: bold;
   font-size: 2em;
 }
