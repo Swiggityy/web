@@ -71,13 +71,13 @@ nav ul {
   color: red;
 }
 
-nav a {
+nav span {
   color: red;
   font-weight: bold;
   font-size: 2em;
 }
 
-nav span {
+nav a {
   color: whitesmoke;
   display: block;
   font-size: .75em;
