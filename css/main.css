@@ -18,7 +18,7 @@ header .logo {
 }
 
 .menu-btn {
-  width: 18px;
+  width: 30px;
   float: right;
   cursor: pointer;
 }
@@ -53,7 +53,7 @@ nav {
 }
 
 nav .close-btn {
-  width: 18px;
+  width: 25px;
   float: right;
   cursor: pointer;
   opacity: 0;
